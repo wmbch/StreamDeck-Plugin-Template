@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "StreamDeckPluginTemplate": {
+      "commandName": "Project"
+    },
+    "Stream Deck Plugin (Build)": {
+        "commandName": "Executable",
+        "executablePath": "..\\..\\..\\sdPlugin.BI\\streamdeck.plugin.bi.exe",
+        "commandLineArgs": "\"$(SolutionDir)$(OutputPath)\\\" $(AssemblyName)",
+        "environmentVariables": {
+            "RUN_TYPE": "Build"
+        },
+        "remoteDebugEnabled": false
+    },
+    "Stream Deck Plugin (Start/Install)": {
+        "commandName": "Executable",
+        "executablePath": "..\\..\\..\\sdPlugin.BI\\streamdeck.plugin.bi.exe",
+        "commandLineArgs": "\"$(SolutionDir)$(OutputPath)\\\" $(AssemblyName)",
+        "environmentVariables": {
+            "RUN_TYPE": "Start and Installation"
+        },
+        "remoteDebugEnabled": false
+    }
+  }
+}

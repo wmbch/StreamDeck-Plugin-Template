@@ -1,0 +1,38 @@
+{
+    "Actions": [
+        {
+            "Icon": "Images/icon",
+            "Name": "NAME_OF_ACTION",
+            "States": [
+                {
+                    "Image": "Images/pluginAction",
+                    "TitleAlignment": "middle",
+                    "FontSize": "12"
+                }
+            ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "TOOLTIP_TEXT",
+            "UUID": "$safeprojectname$.pluginaction",
+            "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+        }
+    ],
+    "Author": "AUTHORS_NAME",
+    "Name": "NAME_OF_THE_PLUGIN",
+    "Description": "ENTER_PLUGIN_DESCRIPTION",
+    "Icon": "Images/pluginIcon",
+    "URL": "YOUR_HOMEPAGE",
+    "Version": "1.0",
+    "CodePath": "$safeprojectname$",
+    "Category": "CATEGORY_NAME",
+    "CategoryIcon": "Images/categoryIcon",
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "SDKVersion": 2,
+    "Software": {
+        "MinimumVersion": "4.9"
+    }
+}
